@@ -24,7 +24,7 @@ def convert():
     print("Centimeters: ", cent)
     print("Feet: ",feet)
     print("Meters: {0:.3f}".format(meters))
-#convert()
+convert()
 
 
 
@@ -33,7 +33,7 @@ def convert():
 def fn1():
     n = int(input("Enter an interger 'n'"))
     for i in range (0, n):
-        for i in range(1,4):
+        for a in range(1,4):
             k = (5*"*"+5*" ")
             print(k*n)
         for a in range(1,4):
